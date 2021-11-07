@@ -20,4 +20,5 @@ git clone git@github.com:rulweb/srv.dotfiles.git ~/.dotfiles
 rm ~/.zshrc
 ln -s ~/.dotfiles/.aliases ~/.aliases
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+source ~/.zshrc
 ```
