@@ -1,0 +1,25 @@
+# Unix
+alias ll="ls -al"
+alias cl="clear"
+
+# Docker-compose
+alias dc="docker-compose"
+alias dcs="docker-compose stop"
+alias dcu="docker-compose up"
+alias dcub="docker-compose up --build"
+alias dcubd="docker-compose up --build -d"
+
+# Laravel Sail
+alias sail='bash vendor/bin/sail'
+
+# GIT
+alias gl="git pull"
+alias gs="git push"
+alias ga="git add"
+
+# ZSH Config
+alias zcfg="code ~/.zshrc"
+alias zrld="source ~/.zshrc"
+
+# Include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
