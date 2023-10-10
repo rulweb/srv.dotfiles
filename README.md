@@ -16,9 +16,7 @@ git clone https://github.com/rulweb/zsh-rulweb ${ZSH_CUSTOM:=~/.oh-my-zsh/custom
 ```
 
 ```bash
-git clone git@github.com:rulweb/srv.dotfiles.git ~/.dotfiles
-rm ~/.zshrc
-ln -s ~/.dotfiles/.aliases ~/.aliases
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
+git clone https://github.com/rulweb/srv.dotfiles.git ~/.dotfiles
+rm ~/.zshrc && ln -s ~/.dotfiles/.zshrc ~/.zshrc && ln -s ~/.dotfiles/.aliases ~/.aliases
 source ~/.zshrc
 ```
